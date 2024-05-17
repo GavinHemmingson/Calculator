@@ -37,7 +37,7 @@ function operate()
             num2 = num3
             num1 = num2
             display.textContent = num1
-            console.log("division")
+            // console.log("division")
             break;
         
         case 42:
@@ -45,14 +45,14 @@ function operate()
             num2 = num3
             num1 = num2
             display.textContent = num1
-            console.log("multiplication")
+            // console.log("multiplication")
             break;
         case 43:
             num3 = num1+num2;
             num2 = num3
             num1 = num2
             display.textContent = num1
-            console.log("addition")
+            // console.log("addition")
             break;
         case 45:
             num3 = Math.round((num1-num2) * 10000000000)/10000000000;
@@ -60,11 +60,11 @@ function operate()
             num1 = num2
             
             display.textContent = num1
-            console.log("subtraction")
+            // console.log("subtraction")
             break;
         default:
             num3 = "";
-            console.log("default")
+            // console.log("default")
 
         
     }
